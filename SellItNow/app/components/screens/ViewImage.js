@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
 
-import Colors from '../config/Colors';
+import Colors from '../../config/Colors';
 
 export default function ViewImage() {
   return (
@@ -11,7 +11,7 @@ export default function ViewImage() {
         <Image
         resizeMode='contain'
         style={styles.image}
-        source={require('../assets/images/screen2/chair.jpg')}/>
+        source={require('../../assets/images/screen2/chair.jpg')}/>
 
         </View>
     )
